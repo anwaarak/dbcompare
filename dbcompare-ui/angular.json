@@ -21,7 +21,9 @@
             "aot": true,
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/package.json",
+              "src/electron.prod.js"
             ],
             "styles": [
               "src/styles.css"
