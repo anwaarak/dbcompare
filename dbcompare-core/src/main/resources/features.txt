@@ -1,0 +1,12 @@
+indexes
+views
+tables
+stored procedures
+functions
+data comparision
+
+
+
+https://www.mysqltutorial.org/mysql-views/mysql-show-view/
+https://www.tutorialspoint.com/how-do-i-show-the-schema-of-a-table-in-a-mysql-database
+https://www.tutorialspoint.com/generate-table-ddl-via-a-query-on-mysql-and-sql-server
