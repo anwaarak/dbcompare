@@ -4,6 +4,7 @@ tables
 stored procedures
 functions
 data comparision
+generate pojo classes from entity
 
 
 
