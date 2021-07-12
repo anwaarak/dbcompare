@@ -11,3 +11,19 @@ generate pojo classes from entity
 https://www.mysqltutorial.org/mysql-views/mysql-show-view/
 https://www.tutorialspoint.com/how-do-i-show-the-schema-of-a-table-in-a-mysql-database
 https://www.tutorialspoint.com/generate-table-ddl-via-a-query-on-mysql-and-sql-server
+
+https://github.com/Sage-Bionetworks/schema-to-pojo
+https://www.graphql-java.com/documentation/v9/data-fetching/
+https://www.schemacrawler.com/getting-started.html
+https://www.baeldung.com/jdbc-database-metadata
+
+
+1-	Generate Pojo From Table
+2-	GraphQL explanation for information Schema
+3-	Generate Data as
+	a- JSON
+	b- CSV
+	c- SQL
+	d- XML
+	e- AVRO
+	f- PARKET

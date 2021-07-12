@@ -19,12 +19,12 @@ public class MysqlController {
 	
 	@GetMapping("/tables")
 	public ResponseEntity<?> getTables() {
-	    return new ResponseEntity<List<String>>(service.getTables(), HttpStatus.OK);
+	    return new ResponseEntity<List<String>>(service.findAllTablesInDB(), HttpStatus.OK);
 	}
 	
 	@GetMapping("/ddl/{tableName}")
 	public ResponseEntity<?> getTableDDL(@PathVariable String tableName) {
-	    return new ResponseEntity<String>(service.getTableDDL(tableName), HttpStatus.OK);
+	    return new ResponseEntity<String>(service.getCreateTableDDLScriptFor(tableName), HttpStatus.OK);
 	}
 	
 	@GetMapping("/information_schema/table")
