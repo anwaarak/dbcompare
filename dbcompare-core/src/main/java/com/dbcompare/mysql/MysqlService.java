@@ -12,8 +12,6 @@ public class MysqlService {
 
 	@Autowired
 	private JdbcTemplate jdbcTemplate;
-
-	
 	
 	public List<String> findAllTablesInDB() {
 		String sql = "SHOW TABLES";
